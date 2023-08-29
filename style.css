@@ -9,6 +9,13 @@
 }
 
 img{
+    font: 100;
+    font-size: 8rem;
+    z-index: 9;
+
+}
+
+img{
     width: 100%;
     display: flex;
 }
@@ -262,7 +269,7 @@ section .header{
 }
 
 .pricing .card p i{
-    color: #ccc;
+    color: #1e40af;
     font-size: 1.2rem;
     margin-right: 0.3rem;
 }
@@ -332,6 +339,12 @@ footer .column > a{
 
 footer .column > a:hover{
     color: #1d4ed8;
+}
+
+footer span {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .copyright{
